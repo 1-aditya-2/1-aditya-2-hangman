@@ -2,6 +2,7 @@ function reset(){
     document.location.reload(true);
 }
 var count=10;
+var aa=0;
 
 
 function myfunc1()
@@ -9,6 +10,11 @@ function myfunc1()
      document.getElementById("a").style.background='#000000';
      document.getElementById("a").disabled=true;
      document.getElementById("a2").style.visibility='visible';
+     aa++;
+     if(aa==9)
+{
+  window.alert('You Won!!!')
+}
 }
 function myfunc2()
 {
@@ -48,6 +54,11 @@ function myfunc5()
      document.getElementById("e").style.background='#000000';
      document.getElementById("e").disabled=true;
      document.getElementById("a7").style.visibility='visible';
+     aa++;
+     if(aa==9)
+{
+  window.alert('You Won!!!')
+}
 }
 function myfunc6()
 {
@@ -76,12 +87,22 @@ function myfunc8()
      document.getElementById("h").style.background='#000000';
      document.getElementById("h").disabled=true;
      document.getElementById("a1").style.visibility='visible';
+     aa++;
+     if(aa==9)
+{
+  window.alert('You Won!!!')
+}
 }
 function myfunc9()
 {
      document.getElementById("i").style.background='#000000';
      document.getElementById("i").disabled=true;
      document.getElementById("a5").style.visibility='visible';
+     aa++;
+     if(aa==9)
+{
+  window.alert('You Won!!!')
+}
 }
 function myfunc10()
 {
@@ -132,6 +153,11 @@ function myfunc14()
      document.getElementById("n").style.background='#000000';
      document.getElementById("n").disabled=true;
      document.getElementById("a6").style.visibility='visible';
+     aa++;
+     if(aa==9)
+{
+  window.alert('You Won!!!')
+}
 }
 function myfunc15()
 {
@@ -150,6 +176,11 @@ function myfunc16()
      document.getElementById("p").disabled=true;
      document.getElementById("a3").style.visibility='visible';
      document.getElementById("a4").style.visibility='visible';
+     aa=aa+2;
+     if(aa==9)
+{
+  window.alert('You Won!!!')
+}
 }
 function myfunc17()
 {
@@ -179,6 +210,11 @@ function myfunc19()
      document.getElementById("s").disabled=true;
      document.getElementById("a8").style.visibility='visible';
      document.getElementById("a9").style.visibility='visible';
+     aa=aa+2;
+     if(aa==9)
+{
+  window.alert('You Won!!!')
+}
 }
 function myfunc20()
 {
